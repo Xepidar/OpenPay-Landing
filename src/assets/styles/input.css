@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.section {
+		@apply bg-neutral-900 text-white pt-20 pb-12;
+	}
+	#navbar {
+		@apply text-white;
+	}
+	p {
+		@apply leading-7;
+	}
+}
+
+
+.fp-watermark {
+	display: none !important;
+}
